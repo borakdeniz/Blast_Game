@@ -1,0 +1,4 @@
+repository "Dreamgames_CaseStudy@borakdeniz@cloud"
+  path "/"
+    br "/main"
+    co "/main"

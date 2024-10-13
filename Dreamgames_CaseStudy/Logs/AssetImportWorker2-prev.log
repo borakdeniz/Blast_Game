@@ -1,0 +1,541 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity Projects/Dreamgames_CaseStudy
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61272
+Successfully changed project path to: D:/Unity Projects/Dreamgames_CaseStudy
+D:/Unity Projects/Dreamgames_CaseStudy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32288] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1072947134 [EditorId] 1072947134 [Version] 1048832 [Id] WindowsEditor(7,Akdeniz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32288] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1072947134 [EditorId] 1072947134 [Version] 1048832 [Id] WindowsEditor(7,Akdeniz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path D:/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Dreamgames_CaseStudy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003339 seconds.
+- Loaded All Assemblies, in  0.309 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.235 seconds
+Domain Reload Profiling: 544ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.470 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1140ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (670ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (242.0 KB). Loaded Objects now: 2932.
+Memory consumption went from 114.2 MB to 114.0 MB.
+Total: 3.164200 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.047000 ms MarkObjects: 2.751500 ms  DeleteObjects: 0.204100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 179550.429147 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0dc402f917426bc2885d736eb1906') in 0.117722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 21.529502 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7088db6cb85e191378ad2664c694f4b7') in 0.006607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 10.942364 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b716f17bfa0376e6ce4ad886274f849d') in 0.007226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 26.721920 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f585fec73ce038bb14b9b23d5f7825') in 0.011464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.315388 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce942d8ce5e507e08c5bdb9102358343') in 0.006641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 8.129373 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa84285cf04635ca47576169ce63745') in 0.006160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.809791 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3131364a06d17c1f90006315b6796187') in 0.007430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.412010 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d64929a3e0a464234a0896109d65176') in 0.006061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 33.933160 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9793b8bef14de6d3526318d1929e0fa9') in 0.007362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 10.555559 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7812497d8723b2dfd5361f83d6a9068e') in 0.007502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 20.897307 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8791f7de89fb8dbdf02187355ef771') in 0.006775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 27.633747 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca7b1977c8bb2fa1605762bb50b4e5f') in 0.006157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 19.455139 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8516789dc1bab1c742ab9af1db6daa6') in 0.005909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.608811 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f802df0d8e031442cf23d1b7f5f6935e') in 0.006106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.887737 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b5c52c2d81db48f9e7f6810a180e0a') in 0.006577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 30.736013 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf0489747a1808cb546e169b223daa6') in 0.007377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 35.693226 seconds.
+  path: Assets/Prefabs/Gems/Gem - Blue.prefab
+  artifactKey: Guid(b198eddf361b467418fd5ecbc83e3f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Blue.prefab using Guid(b198eddf361b467418fd5ecbc83e3f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017ff1018a0b2ad25bfece1a4216ae92') in 0.742382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Gems/Gem - Yellow Variant.prefab
+  artifactKey: Guid(17e96bb4c10e16c41aa552eb7cfac9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Yellow Variant.prefab using Guid(17e96bb4c10e16c41aa552eb7cfac9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a357cbeb5f809307882fd10ab1d7787f') in 0.018370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Gems/Gem - Red Variant.prefab
+  artifactKey: Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Red Variant.prefab using Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee8f69fc7e1d9d433cc6452e45148b') in 0.016605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 157.556747 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab
+  artifactKey: Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab using Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e423bea135aa6ffd09f56f39e3301474') in 0.015350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.015335 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Green Variant.prefab
+  artifactKey: Guid(3f51848fc2ee79b4bb4997a7d8ba9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Green Variant.prefab using Guid(3f51848fc2ee79b4bb4997a7d8ba9c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad839a6de86906c10b013d28af4d4c3') in 0.012158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 19.348458 seconds.
+  path: Assets/Prefabs/Gems/Gem - Green Variant.prefab
+  artifactKey: Guid(2fb3fc1d1b1f8bb47a04d7b61db04cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Green Variant.prefab using Guid(2fb3fc1d1b1f8bb47a04d7b61db04cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d4fe1520fdcac38487ee8e23669efa') in 0.014676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 1.951033 seconds.
+  path: Assets/Prefabs/Gems/Gem - Green Variant.prefab
+  artifactKey: Guid(2fb3fc1d1b1f8bb47a04d7b61db04cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Green Variant.prefab using Guid(2fb3fc1d1b1f8bb47a04d7b61db04cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f3f08818b3ba44ac352730f0947455') in 0.013752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 9.423382 seconds.
+  path: Assets/Prefabs/Gems/Gem - Red Variant.prefab
+  artifactKey: Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Red Variant.prefab using Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0366dd7a0a8a9e34c1974e04865c3bec') in 0.013970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 9.105532 seconds.
+  path: Assets/Prefabs/Gems/Gem - Yellow Variant.prefab
+  artifactKey: Guid(17e96bb4c10e16c41aa552eb7cfac9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Yellow Variant.prefab using Guid(17e96bb4c10e16c41aa552eb7cfac9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7460eb38671fc18333eaf847c236112a') in 0.017130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 42.347811 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c71fd38050cd08acdd05321df7803e') in 0.006220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab
+  artifactKey: Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab using Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265af1824d1ddab99a91c3718929f9bc') in 0.006377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.162834 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e572f74ffac1283f7c9c8d191e78787e') in 0.006810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab
+  artifactKey: Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab using Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847f1fc9b29dc5ca2f5de7239df87867') in 0.006496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.073653 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Blue.prefab
+  artifactKey: Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Blue.prefab using Guid(98f9ba1829d2ba44cb15059ef858e32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3711958e75d53a2d1b5c984e645b762d') in 0.006174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab
+  artifactKey: Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemExplosion - Red Variant.prefab using Guid(65f69840d909c1547bfcf6999eecebb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a0c63832a7bacdee0c580c5c7184d3') in 0.006606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 92.055821 seconds.
+  path: Assets/Materials/Particles/GemParticle - Green.mat
+  artifactKey: Guid(ab3dec865d735044988a125b8c99c636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Particles/GemParticle - Green.mat using Guid(ab3dec865d735044988a125b8c99c636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c84b9dd3fa129485f1527339e2b184') in 0.081998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 66.282068 seconds.
+  path: Assets/Prefabs/Effects/GemBurst - Green Variant.prefab
+  artifactKey: Guid(550c9f9379ff22b4fb904c5c411a5598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemBurst - Green Variant.prefab using Guid(550c9f9379ff22b4fb904c5c411a5598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3ce913cd2adc35b35d1c4c2c2bdcf7') in 0.012436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 44.705101 seconds.
+  path: Assets/Prefabs/Gems/Gem - Blue.prefab
+  artifactKey: Guid(b198eddf361b467418fd5ecbc83e3f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Blue.prefab using Guid(b198eddf361b467418fd5ecbc83e3f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e8d1ced1a68bdbec6ce01ccced8d2c') in 0.013678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Gems/TNT Variant.prefab
+  artifactKey: Guid(0c37784aff2a8db48af5414f9c846cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/TNT Variant.prefab using Guid(0c37784aff2a8db48af5414f9c846cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb1903056f64faae4b44bebf2161a0c') in 0.017122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Gems/Gem - Red Variant.prefab
+  artifactKey: Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Red Variant.prefab using Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec425b0e79972a8282f29ce08c9081c') in 0.016968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 7.267955 seconds.
+  path: Assets/Prefabs/Gems/Gem - Red Variant.prefab
+  artifactKey: Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Red Variant.prefab using Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984fbdbbc796523c525e11b68873000c') in 0.035924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 407.795363 seconds.
+  path: Assets/Prefabs/Gems/Gem - Red Variant.prefab
+  artifactKey: Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Red Variant.prefab using Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c510e2d43c0adf13260a2fa9047b63') in 0.101820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Gems/TNT Variant.prefab
+  artifactKey: Guid(0c37784aff2a8db48af5414f9c846cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/TNT Variant.prefab using Guid(0c37784aff2a8db48af5414f9c846cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0872d91342e150455bc51e6b611b48') in 0.017744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 261.557871 seconds.
+  path: Assets/Materials/Particles/Gem Particle - Blue 1.mat
+  artifactKey: Guid(e4a1950872e68904f93206070bcc5e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Particles/Gem Particle - Blue 1.mat using Guid(e4a1950872e68904f93206070bcc5e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7ec3a2fc39830adf0fa75c03967c62') in 0.016408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 63.718097 seconds.
+  path: Assets/Prefabs/Effects/GemPop - Blue.prefab
+  artifactKey: Guid(d57b7e73ed9aebb40ab472606003ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/GemPop - Blue.prefab using Guid(d57b7e73ed9aebb40ab472606003ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4891d9bc61b34f30e76228a58f78635') in 0.026848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 204.305412 seconds.
+  path: Assets/Prefabs/Gems/Gem - Green Variant.prefab
+  artifactKey: Guid(2fb3fc1d1b1f8bb47a04d7b61db04cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Green Variant.prefab using Guid(2fb3fc1d1b1f8bb47a04d7b61db04cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4a9053b34cdbb734422a4ef040344e') in 0.017185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Gems/Gem - Yellow Variant.prefab
+  artifactKey: Guid(17e96bb4c10e16c41aa552eb7cfac9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Yellow Variant.prefab using Guid(17e96bb4c10e16c41aa552eb7cfac9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4abeef52c6b3b8242474a45c706f3f') in 0.021647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Gems/Gem - Red Variant.prefab
+  artifactKey: Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gems/Gem - Red Variant.prefab using Guid(220c510aa6a568949a728c582e32a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8547d7a20c3e5e01d8ddfccb795d5c') in 0.021509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iş parçacığı çıkışı veya bir uygulama isteği nedeniyle G/Ç işlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
